@@ -1,0 +1,129 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: 3px solid transparent;
+    }
+
+    @font-face {
+      font-family: ANIMAL WIND;
+      src: url('/FONT/animal_wild/Animal\ Wild.otf');
+    }
+   body {
+    background-color:rgb(5, 60, 94);
+  color: aliceblue;
+   }
+  
+  #imgvoltar{
+    width: 60px;
+    height: 60px;
+  }
+
+
+   #destinos{
+   position: absolute;
+   font-size: 70px;
+   color: aliceblue;
+  font-family: ANIMAL WIND;
+  margin-left: 680px;
+   }
+
+   #imggramado{
+    width: 200px;
+    height: 200px;
+    margin-left: 280px;
+    margin-top: 140px;
+   }
+
+   #legenda1{
+    margin-left: 340px;
+    color: aliceblue;
+    font-family: ANIMAL WIND;
+    font-size: 30px;
+    position: absolute;
+   }
+
+   #imgriodejaneiro{
+    width: 200px;
+    height: 200px;
+    margin-left: 680px;
+    margin-top:-205px ;
+    position: absolute;
+   }
+
+   #legenda2{
+    color: aliceblue;
+    font-family: ANIMAL WIND;
+    font-size: 30px;
+    margin-left:710px;
+   }
+
+   #imgsalvador{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top:-280px;
+   }
+
+   #legenda3{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: ANIMAL WIND;
+    margin-left: 1150px;
+    position: absolute;
+    margin-top: -40px;
+   }
+
+   #imgparis{
+    width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 45px;
+  }
+
+  #legenda6{
+    position: absolute;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: ANIMAL WIND;
+    margin-left: 350px;
+    margin-top:250px;
+  }
+
+
+  #imggrecia{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 45px;
+  }
+
+  #legenda7{
+    position: absolute;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: ANIMAL WIND;
+    margin-left:750px ;
+    margin-top: 250px;
+  }
+
+  #imgitalia{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 45px;
+  }
+
+  #legenda8{
+    position: absolute;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: ANIMAL WIND;
+    margin-left: 1170px;
+    margin-top: 250px;
+    
+  }

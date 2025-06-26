@@ -1,0 +1,184 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: 3px solid transparent;
+    }
+
+    @font-face {
+      font-family: ANIMAL WIND;
+      src: url('/FONT/animal_wild/Animal\ Wild.otf');
+    }
+   
+    body {
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+    font-size: 20px;
+    height: 300px;
+   }
+ 
+   #imgmenu{
+   width: 40px;
+   height: 40px;
+ 
+   }
+
+   #video{
+    margin-left: -1100px;
+    margin-top: 500px;
+   }
+
+   #menu{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    flex-direction: row;
+    margin-top: -600px;
+    background-color: rgb(5, 60, 94);
+    font-family: 'ANIMAL WIND';
+    font-size: 100px
+   }
+
+   .logo{
+    width: 100px;
+    height: 100px;
+   
+   }
+
+    a{
+    padding-top: 15px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+ 
+   }
+
+   li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+   
+   }
+
+   #imglogo{
+    width: 90px;
+    height: 90px;
+  
+   }
+
+   #a{
+    color: aliceblue;
+    font-size: 10px;
+    margin-top: -300px;
+   
+   }
+
+  .search-box {
+  margin-top: 10px;
+}
+
+.search-box input {
+  padding: 8px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+}
+
+.contato{
+  margin-left: 1200px;
+  margin-top: -510px;
+}
+.info{
+  margin-left: 1200px;
+}
+
+p{
+  margin-top: -450px;
+  font-size: 20px;
+  margin-left: 50px;
+} 
+
+#inicio{
+  font-family: ANIMAL WIND;
+  margin-left: 150px;
+  font-family: 'ANIMAL WIND';
+    color: rgb(8, 35, 53);
+    font-size: 40px;
+    margin-top: -300px;
+    
+}
+
+#imgsalvador{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-left: -70px;
+  margin-top: 20px;
+}
+
+#texto1{
+  color: rgb(5, 60, 94);
+margin-top: 720px;
+font-size: 20px;
+position: absolute;
+margin-left: -50px;
+margin-top: 270px;
+font-size: 15px;
+}
+
+#imgmaldivas{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-left: 320px ;
+  margin-top: -275px;
+}
+
+#texto2{
+  color: rgb(5, 60, 94);
+  margin-left: 350px;
+  margin-top: -20px;
+  font-size: 15px;
+}
+
+
+
+#imglencoism{
+width: 250px;
+height: 250px;
+margin-left: 350px;
+margin-top: -280px;
+position: absolute;
+}
+
+#texto3{
+  color: rgb(5, 60, 94);
+  margin-left: 415px;
+  margin-top: -30px;
+}
+
+
+#imggrecia{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-left:360px;
+  margin-top: -280px;
+}
+
+#texto4{
+  color: rgb(5, 60, 94);
+  margin-left: 430px;
+  margin-top: -30px;
+}
+
+
+
+#legenda1, #legenda2, #legenda3, #legenda4{
+  font-family: ANIMAL WIND;
+  font-size: 50px;
+}

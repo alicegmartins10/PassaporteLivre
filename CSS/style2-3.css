@@ -1,0 +1,91 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: 3px solid transparent;
+    }
+
+    @font-face {
+      font-family: ANIMAL WIND;
+      src: url('/FONT/animal_wild/Animal\ Wild.otf');
+    }
+
+    @font-face {
+        font-family:GAVOLINE;
+        src: url('/FONT/gavoline/GavolineDemo.otf');
+    }
+
+    body {
+    background-color:rgb(252, 245, 234);;
+    color: aliceblue;
+   }
+
+    #imgvoltar{
+      width: 60px;
+      height: 60px;
+      margin-top: -270px;
+      margin-left: -250px;
+    }
+   
+   
+  #imgsobre{
+    width: 100%;
+    height: 350PX;
+    position: absolute;
+    z-index: -1;
+  }
+   
+  #texto1{
+    font-family: ANIMAL WIND;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 250px;
+  }
+
+  #email{
+    width: 70px;
+    height: 70px;
+    margin-left: 480px;
+    margin-top: 250px;
+    position: absolute;
+  }
+
+  #texto3{
+    color:rgb(0, 71, 103) ;
+    font-family: ANIMAL WIND;
+    font-size: 15px;
+    margin-left: 500px;
+    margin-top: 300px;
+  }
+
+  #texto4{
+    margin-left: -70px;
+  }
+
+  #telefone{
+    width: 70px;
+    height: 70px;
+    margin-left: 60px;
+  }
+
+  #texto6{
+    margin-left: 55px;
+  }
+
+  #imglocalizacao{
+    width: 70px;
+    height: 70px;
+    margin-left: 7px;
+  }
+
+  #texto9{
+    margin-left: -10px;
+  }
+
+  #texto10{
+    width: 300px;
+    height: 40px;
+  }
+
+ 

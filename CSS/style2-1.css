@@ -1,0 +1,142 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: 3px solid transparent;
+    }
+
+    @font-face {
+      font-family: ANIMAL WIND;
+      src: url('/FONT/animal_wild/Animal\ Wild.otf');
+    }
+
+    @font-face {
+        font-family:GAVOLINE;
+        src: url('/FONT/gavoline/GavolineDemo.otf');
+    }
+
+    body {
+    background-color:rgb(255, 251, 239);
+    color: aliceblue;
+   }
+   
+   #imgvoltar{
+    width: 60px;
+    height: 60px;
+   }
+
+   #logo{
+    width: 70px;
+    height: 70px;
+   }
+
+
+   #imgsobre{
+    width: 100%;
+    height: 350PX;
+    position: absolute;
+    z-index: -1;
+  }
+
+  #imgpassaporte{
+    width:150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: -220px;
+   
+  }
+
+  #texto1{
+    color: aliceblue;
+    margin-left: 450px;
+    margin-top: 150px;
+    position: absolute;
+    font-size: 30px;
+    font-family: ANIMAL WIND;
+  }
+
+  #historia{
+    font-size: 14px;
+    color: black;
+margin-top: -100px;
+margin-left: -275px;
+font-family: GAVOLINE;
+
+  }
+
+  #imgfundador{
+    width: 150px;
+    height: 150px;
+    margin-top: -51px;
+    margin-left: 170px ;
+  }
+
+  #historiafundador{
+    font-size: 14px;
+    color: black;
+    font-family: GAVOLINE;
+    margin-top: -170px;
+    margin-left: 500px;
+  }
+
+  #missao{
+    background-color: rgb(255, 251, 239);
+    color: rgb(0, 55, 78);
+    font-family: GAVOLINE;
+    font-size: 15px;
+    width: 600px;
+    height: 130px;
+    z-index:1;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 65px;
+  }
+
+  #visao{
+     background-color: rgb(255, 251, 239);
+    color: rgb(0, 55, 78);
+    font-family: GAVOLINE;
+    font-size: 15px;
+    width: 600px;
+    height: 130px;
+    z-index:1;
+    position: absolute;
+   margin-left: 350px;
+   margin-top: -67px;
+  }
+
+  #valores{
+    background-color:rgb(255, 251, 239);
+    color: rgb(0, 55, 78);
+    font-family: GAVOLINE;
+    font-size: 15px;
+    width: 200px;
+    height: 130px;
+    z-index:1;
+    position: absolute;
+   margin-left: 370px;
+   margin-top: -71px;
+  }
+
+  #imgfacebook{
+   width: 50px;
+   height: 50px;
+   margin-left: -900px;
+   margin-top: 90px;
+  }
+
+  #imginstagram{
+    width: 30px;
+    height: 30px;
+    margin-left: -840px;
+    margin-top: 30px;
+  }
+
+  #texto2{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: GAVOLINE;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -800px;
+  }

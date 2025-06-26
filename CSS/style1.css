@@ -1,0 +1,376 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: 2px solid transparent;
+    }
+
+   body {
+    font-family: LibreBodoni-Regular;
+   }
+
+   .container {
+    display: flex;
+    flex-direction: column;
+    width: 98.9vw;
+    height: 3500px;
+   }
+
+   #home, #historia, #servicos, #produtos, #contato {
+    display: flex;
+    width: 100%;
+    height: 700px;
+   }
+
+   /*HOME*/
+   #imgFundo{
+    width: 100vw;
+    height: 1100px;
+    object-fit: cover;
+    margin-top: -400px;
+   }
+
+   #menu {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    flex-direction: row;
+   }
+
+   #imgMenu{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+   }
+
+   a{
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+   }
+
+   li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+   }
+
+   #mensagem{
+    font-size: 40px;
+    letter-spacing: 2px;
+    width: 600px;
+    height: 500px;
+    color: white;
+    margin: 150px 0 0 50px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   }
+
+   #pee{
+    color: white;
+    display: flex;
+    position: absolute;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 650px 0 0 800px;
+   }
+
+   /*HISTÓRIA*/
+   #historia{
+    background: #36181E;
+background: linear-gradient(180deg, rgba(54, 24, 30, 1) 0%, rgba(82, 39, 48, 1) 50%);
+   }
+
+   #imgHit{
+    margin-left: 250px;
+    opacity: 0.2;
+   }
+
+    #imgFundo1{
+    width: 1000px;
+    height: 650px;
+    margin-left: 230px;
+    margin-top: -20px;
+    opacity: 60%;
+     }
+
+#texto3{
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #261317;
+    width: 200px;
+    height: 50px;
+    margin-top: 85px;
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-top: 5px;
+    position: absolute;
+    opacity: 80%;
+    }
+   
+     #texto4{
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #483136;
+    opacity: 80%;
+    width: 1400px;
+    height: 170px;
+    margin-top: 145px;
+    margin-left: 60px;
+    padding-left: 50px;
+    padding-top: 1px;
+    position: absolute;
+    }
+
+    #texto5{
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #261317;
+    width: 200px;
+    height: 50px;
+    margin-top: 330px;
+    margin-left: 1200px;
+    padding-left: 30px;
+    padding-top: 5px;
+    position: absolute;
+    opacity: 80%;
+    }
+
+
+    #img{
+    width: 300px;
+    height: 350px;
+    margin-left: 150px ;
+    margin-top: 320px ;
+    position: absolute;
+    }
+
+
+    #texto6{
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #483136;
+    opacity: 80%;
+    width: 950px;
+    height: 170px;
+    margin-left: 500px;
+    margin-top: 400px;
+    padding-top: 10px;
+    padding-left: 20px;
+    position: absolute;
+    }
+
+    #texto7{
+        font-size: 25px;
+        color: aliceblue;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 270px;
+    }
+
+    #imgcarro1{
+        width: 300px;
+        height: 300px;
+        margin-top: -500px;
+        position: absolute;
+        margin-left: 610px;
+        
+    }
+   
+    #texto8{
+font-size: 25px;
+color: aliceblue;
+margin-top: 100px;
+margin-left: 630px;
+
+    }
+
+    #imgcarro{
+        width: 200px;
+        height: 150px;
+        margin-left: 150px;
+        margin-top: -500px;
+        position: absolute;
+        color: aliceblue;
+        font-size: 30px;
+    }
+
+    #imgcarro2{
+        width: 200px;
+        height: 150px;
+        margin-left: 500px;
+        margin-top: -500px;
+   position: absolute;
+    }
+
+    #imgfurore{
+        width: 200px;
+        height: 150px;
+        margin-left: 800px;
+        margin-top: -500px;
+        position: absolute;
+    }
+    
+    #imgfulmine{
+        width: 200px;
+        height: 150px;
+        margin-left: 1100px;
+        margin-top: -500px;
+        position: absolute;
+    }
+
+    #imgeleganza{
+        width: 200px;
+        height:150px;
+        margin-left: 300px;
+        position: absolute;
+        margin-top: -300px ;
+    }
+
+#imgaurora{
+    width: 200px;
+    height:150px ;
+    margin-left: 950px;
+    margin-top: -300px;
+    position: absolute;
+}
+
+#texto9{
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 100px;
+
+}
+
+#texto10{
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    align-items:center;
+    margin-left: 250px;
+    margin-top: -500px;
+    position: absolute;
+}
+
+#logobrasil{
+    width: 75px;
+    height: 75px;
+    margin-left: 175px;
+    margin-top: -520px;
+    position: absolute;
+}
+
+#texto11{
+    margin-top: -400px;
+    color: aliceblue;
+  margin-left: 250px;
+}
+
+#EC{
+    width: 472px;
+    height: 92px;
+    background-color: #320D13;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left:200px;
+    position: absolute;
+}
+
+#ECC{
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+#texto12{
+    color: aliceblue;
+    margin-left: 200px;
+    margin-top: 170px;
+    position: absolute;
+    
+}
+
+#twitter{
+    width: 70px;
+    height: 70px;
+    margin-left: 175px;
+    margin-top: 220px;
+}
+
+#face{
+    width: 70px;
+    height: 70px;
+    margin-left: 250px;
+    margin-top: -70px;
+    position: absolute;
+}
+
+#insta{
+    width: 70px;
+    height: 70px;
+    margin-left: 320px;
+    margin-top: -70px;
+    position: absolute;
+}
+
+#linkedin{
+    width: 70px;
+    height: 70px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left:395px ;
+}
+
+#youtube{
+    width: 70px;
+    height: 70px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 465px;
+}
+
+#pinterest{
+    width: 70px;
+    height: 70px;
+    margin-top: -60px;
+    position: absolute;
+    margin-left:535px;
+}
+
+#texto13{
+    margin-left: 110px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+  /*SERVIÇOS*/
+   #servicos{
+   background: #36181E;
+background: linear-gradient(180deg, rgba(54, 24, 30, 1) 0%, rgba(82, 39, 48, 1) 50%);
+   
+   }
+
+   /*Produtos*/
+   #produtos{
+    background: #36181E;
+background: linear-gradient(180deg, rgba(54, 24, 30, 1) 0%, rgba(82, 39, 48, 1) 50%);
+   }
+
+   /*Contato*/
+   #contato{
+    margin-top: -700px;
+    background: #36181E;
+background: linear-gradient(180deg, rgba(54, 24, 30, 1) 0%, rgba(82, 39, 48, 1) 50%);
+   }
